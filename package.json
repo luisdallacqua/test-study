@@ -8,6 +8,8 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.23.0",
+    "lodash.clone": "^4.5.0",
+    "lodash.isempty": "^4.4.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^5.2.1",
@@ -21,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "e2e": "cypress run",
-    "stub-server": "json-server --watch db.json --port 8080"
+    "stub-server": "json-server --watch books.json --port 8080"
   },
   "eslintConfig": {
     "extends": [
